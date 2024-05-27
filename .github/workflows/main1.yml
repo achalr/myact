@@ -1,0 +1,6 @@
+- name: create data
+        run: |
+            printf '{
+              "data_1": "simple data",
+              "data_2": true
+              }' >> simplefile.json
